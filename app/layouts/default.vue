@@ -5,7 +5,8 @@
       <div class="container mx-auto max-w-6xl px-6 py-4">
         <div class="flex items-center justify-between">
           <h1 class="text-2xl font-bold">Nuxt + shadcn-vue</h1>
-          <div class="flex gap-2">
+          <div class="flex items-center gap-2">
+            <ThemeToggle />
             <Button variant="outline" size="sm">Documentation</Button>
             <Button size="sm">Get Started</Button>
           </div>
