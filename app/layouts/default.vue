@@ -22,7 +22,7 @@
     <!-- Footer -->
     <footer class="border-t">
       <div class="container mx-auto max-w-6xl px-6 py-6 text-center text-sm text-muted-foreground">
-        Built with Nuxt.js and shadcn-vue
+        Built with Nuxt and shadcn-vue
       </div>
     </footer>
   </div>

@@ -3,11 +3,10 @@
     <!-- Hero Section -->
     <section class="text-center mb-20">
       <h2 class="text-5xl font-bold mb-6">
-        Beautiful UI Components for Nuxt
+        Beautiful UI Components for Nuxt 4
       </h2>
       <p class="text-muted-foreground text-xl mb-10 max-w-2xl mx-auto leading-relaxed">
-        A template combining Nuxt.js with shadcn-vue, featuring Tailwind CSS 4,
-        TypeScript, and a fully customizable component system.
+        A starter template built with Nuxt 4, shadcn-vue, and Tailwind CSS 4
       </p>
       <div class="flex gap-4 justify-center">
         <Button size="lg">Explore Components</Button>
