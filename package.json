@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@nuxt/eslint": "1.12.1",
-    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@nuxtjs/tailwindcss": "7.0.0-beta.1",
     "eslint": "^9.39.2",
     "nuxt": "^4.2.2",
     "shadcn-nuxt": "2.4.3",
