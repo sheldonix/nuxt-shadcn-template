@@ -9,7 +9,11 @@
         A starter template built with Nuxt 4, shadcn-vue, and Tailwind CSS 4
       </p>
       <div class="flex gap-4 justify-center">
-        <Button size="lg">Explore Components</Button>
+        <Button as-child size="lg">
+          <NuxtLink to="https://www.shadcn-vue.com/docs/components" target="_blank">
+            Explore Components
+          </NuxtLink>
+        </Button>
         <Button as-child variant="outline" size="lg">
           <NuxtLink to="https://github.com/sheldonix/nuxt-shadcn-template" target="_blank">
             View on GitHub
