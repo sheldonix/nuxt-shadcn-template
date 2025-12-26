@@ -18,7 +18,7 @@ This template provides a solid foundation for building modern web applications w
 
 ## Features
 
-- **Nuxt 4** - The latest Vue 3 framework with auto-imports and file-based routing
+- **Nuxt 4** - The latest Vue 3 full-stack framework with auto-imports, file-based routing, and server-side rendering
 - **shadcn-vue** - Beautifully designed components (Vue port of shadcn/ui, built on Reka UI)
 - **Tailwind CSS 4** - Utility-first CSS with the latest v4 features
 - **Theme Switcher** - Dark/light theme toggle with localStorage persistence
@@ -39,8 +39,6 @@ pnpm install
 # Start development server
 pnpm dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) to see your application.
 
 ## Scripts
 
