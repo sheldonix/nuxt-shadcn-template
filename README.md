@@ -18,7 +18,7 @@ This template provides a solid foundation for building modern web applications w
 
 ## Features
 
-- **Nuxt 4** - The latest Vue 3 full-stack framework with auto-imports, file-based routing, and server-side rendering
+- **Nuxt 4** - Vue 3 full-stack framework with auto-imports, file-based routing, and SSR
 - **shadcn-vue** - Beautifully designed components (Vue port of shadcn/ui, built on Reka UI)
 - **Tailwind CSS 4** - Utility-first CSS with the latest v4 features
 - **Theme Switcher** - Dark/light theme toggle with localStorage persistence
