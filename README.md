@@ -2,7 +2,7 @@
 
 # Nuxt Shadcn Template
 
-**A modern starter template built with Nuxt 4, shadcn-vue, and Tailwind CSS 4**
+**A modern web application starter template built with Nuxt 4, shadcn-vue, and Tailwind CSS 4**
 
 [![Nuxt](https://img.shields.io/badge/Nuxt-4.2.2-00DC82?logo=nuxt.js)](https://nuxt.com)
 [![Vue](https://img.shields.io/badge/Vue-3.5-4FC08D?logo=vue.js&logoColor=white)](https://vuejs.org)
@@ -18,19 +18,18 @@ This template provides a solid foundation for building modern web applications w
 
 ## Features
 
-- **Nuxt 4** - The latest Vue 3 full-stack framework with auto-imports, file-based routing, and server-side rendering
-- **shadcn-vue** - Beautifully designed components built on Radix UI primitives
+- **Nuxt 4** - The latest Vue 3 framework with auto-imports and file-based routing
+- **shadcn-vue** - Beautifully designed components (Vue port of shadcn/ui, built on Reka UI)
 - **Tailwind CSS 4** - Utility-first CSS with the latest v4 features
 - **Theme Switcher** - Dark/light theme toggle with localStorage persistence
 
-## Quick Start
+## Getting Started
 
-### Use as Template
+### Create Project
 
-Click the "Use this template" button on GitHub to create your own repository, or run:
+Click the **"Use this template"** button on GitHub to create your own repository, or clone it manually:
 
 ```bash
-# Clone the repository
 git clone https://github.com/sheldonix/nuxt-shadcn-template.git my-project
 cd my-project
 
@@ -43,7 +42,16 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) to see your application.
 
-## Adding Components
+## Scripts
+
+```bash
+pnpm dev          # Start development server
+pnpm build        # Build for production
+pnpm generate     # Generate static site
+pnpm preview      # Preview production build
+```
+
+## Adding UI Components
 
 This template includes Button, Card, and Input components by default. Add more shadcn-vue components:
 
@@ -57,7 +65,7 @@ Available components: [shadcn-vue.com/docs/components](https://www.shadcn-vue.co
 
 ```
 .
-├── app/
+├── app/              # Nuxt application directory
 │   ├── assets/       # Global styles and Tailwind CSS config
 │   ├── components/   # Vue components
 │   ├── lib/          # Utility functions
@@ -65,15 +73,6 @@ Available components: [shadcn-vue.com/docs/components](https://www.shadcn-vue.co
 │   ├── pages/        # Route pages
 │   └── plugins/      # Nuxt plugins
 └── public/           # Static assets
-```
-
-## Scripts
-
-```bash
-pnpm dev          # Start development server
-pnpm build        # Build for production
-pnpm generate     # Generate static site
-pnpm preview      # Preview production build
 ```
 
 ## Links
@@ -87,6 +86,8 @@ pnpm preview      # Preview production build
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+
+[![GitHub](https://img.shields.io/badge/Github-sheldonix%2Fnuxt--shadcn--template-181717?logo=github)](https://github.com/sheldonix/nuxt-shadcn-template)
 
 ## License
 
