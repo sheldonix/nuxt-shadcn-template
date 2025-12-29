@@ -1,0 +1,15 @@
+$schema: https://raw.githubusercontent.com/sheldonix/tpull/v1.0.0/schema.json
+name: nuxt-shadcn-template
+description: A modern web application starter template
+prompts:
+  - var: project_name
+    type: input
+    message: Project name?
+    default: nuxt-shadcn-app
+    required: true
+    pattern: ''
+replacements:
+  - files:
+      - package.json
+    from: '/(?<="name"\s*:\s*")[^"]+(?=")/g'
+    to: '{{project_name}}'
