@@ -6,7 +6,7 @@ prompts:
   - var: project_name
     type: input
     message: Project name?
-    default: nuxt-shadcn-app
+    default: my-nuxt-app
     required: true
     validate: ''
 replacements:
@@ -14,7 +14,3 @@ replacements:
       - package.json
     pattern: '/("name"\s*:\s*")[^"]*(")/'
     replace: '$1{{project_name}}$2'
-  - files:
-      - tpull-config.yaml
-    pattern: '/(^name\s*:\s*)[^\r\n]*/m'
-    replace: '$1{{project_name}}'
