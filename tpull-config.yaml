@@ -1,6 +1,6 @@
 $schema: https://raw.githubusercontent.com/sheldonix/tpull/v1.0.0/schema.json
+tpull_version: 1.0.0
 name: nuxt-shadcn-template
-description: A modern web application starter template.
 prompts:
   - var: project_name
     type: input
