@@ -8,13 +8,13 @@ prompts:
     message: Project name?
     default: nuxt-shadcn-app
     required: true
-    pattern: ''
+    validate: ''
 replacements:
   - files:
       - package.json
-    from: '/(?<="name"\s*:\s*")[^"]+(?=")/'
-    to: '{{project_name}}'
+    pattern: '/("name"\s*:\s*")[^"]*(")/'
+    replace: '$1{{project_name}}$2'
   - files:
       - tpull-config.yaml
-    from: '/(?<=^name\s*:\s*)[^\r\n]+/m'
-    to: '{{project_name}}'
+    pattern: '/(^name\s*:\s*)[^\r\n]*/m'
+    replace: '$1{{project_name}}'
