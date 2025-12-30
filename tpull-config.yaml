@@ -1,6 +1,7 @@
 $schema: https://raw.githubusercontent.com/sheldonix/tpull/v1.0.0/schema.json
 tpull_version: 1.0.0
 name: nuxt-shadcn-template
+template_repo: https://github.com/sheldonix/nuxt-shadcn-template
 prompts:
   - var: project_name
     type: input
@@ -11,5 +12,9 @@ prompts:
 replacements:
   - files:
       - package.json
-    from: '/(?<="name"\s*:\s*")[^"]+(?=")/g'
+    from: '/(?<="name"\s*:\s*")[^"]+(?=")/'
+    to: '{{project_name}}'
+  - files:
+      - tpull-config.yaml
+    from: '/(?<=^name\s*:\s*)[^\r\n]+/m'
     to: '{{project_name}}'
