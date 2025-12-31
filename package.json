@@ -2,7 +2,7 @@
   "name": "nuxt-shadcn-template",
   "type": "module",
   "private": true,
-  "version": "0.1.6",
+  "version": "0.1.8",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
