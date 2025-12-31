@@ -1,5 +1,5 @@
-$schema: https://raw.githubusercontent.com/sheldonix/tpull/v1.0.0/schema.json
-tpull_version: 1.0.0
+$schema: https://raw.githubusercontent.com/sheldonix/tpull/v1.1.0/schema.json
+tpull_version: 1.1.0
 name: nuxt-shadcn-template
 template_repo: https://github.com/sheldonix/nuxt-shadcn-template
 prompts:
@@ -14,3 +14,11 @@ replacements:
       - package.json
     pattern: '/("name"\s*:\s*")[^"]*(")/'
     replace: '$1{{project_name}}$2'
+  - files:
+      - tpull-config.yaml
+    pattern: '/(^name:\s*)nuxt-shadcn-template/m'
+    replace: '$1{{project_name}}'
+  - files:
+      - tpull-config.yaml
+    pattern: '/)nuxt-shadcn-template/g'
+    replace: '){{project_name}}'
