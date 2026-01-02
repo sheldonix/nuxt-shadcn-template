@@ -27,11 +27,11 @@ This template provides a solid foundation for building modern web applications w
 
 ### Prerequisites
 
-- Node.js 20.19.0+
+- Node.js >= 20.19.0
 
 ### Create Project
 
-Use `npx` with `tpull` to scaffold a new project:
+Use `npx` with [tpull](https://www.npmjs.com/package/tpull) to scaffold a new project:
 
 ```bash
 npx -y tpull@latest sheldonix/nuxt-shadcn-template@latest my-nuxt-app
@@ -39,7 +39,7 @@ npx -y tpull@latest sheldonix/nuxt-shadcn-template@latest my-nuxt-app
 
 Other ways to use this template:
 
-- Use GitHub template: Click the **"Use this template"** button on GitHub to create your own repository.
+- Click the **"Use this template"** button on GitHub to create your own repository.
 - Alternatively, clone manually:
 
   ```bash
@@ -98,7 +98,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 
-[![GitHub](https://img.shields.io/badge/Github-sheldonix%2Fnuxt--shadcn--template-181717?logo=github)](https://github.com/sheldonix/nuxt-shadcn-template)
+[![GitHub](https://img.shields.io/badge/Github-sheldonix%2Fnuxt--shadcn--template-green?logo=github)](https://github.com/sheldonix/nuxt-shadcn-template)
 
 ## License
 
