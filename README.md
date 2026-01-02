@@ -25,20 +25,33 @@ This template provides a solid foundation for building modern web applications w
 
 ## Getting Started
 
+### Prerequisites
+
+- Node.js 20.19.0+
+
 ### Create Project
 
-Click the **"Use this template"** button on GitHub to create your own repository, or clone it manually:
+Use `npx` with `tpull` to scaffold a new project:
 
 ```bash
-git clone https://github.com/sheldonix/nuxt-shadcn-template.git my-project
-cd my-project
-
-# Install dependencies
-pnpm install
-
-# Start development server
-pnpm dev
+npx -y tpull@latest sheldonix/nuxt-shadcn-template@latest my-nuxt-app
 ```
+
+Other ways to use this template:
+
+- Use GitHub template: Click the **"Use this template"** button on GitHub to create your own repository.
+- Alternatively, clone manually:
+
+  ```bash
+  git clone https://github.com/sheldonix/nuxt-shadcn-template.git my-nuxt-app
+  cd my-nuxt-app
+  
+  # Install dependencies
+  pnpm install
+  
+  # Start development server
+  pnpm dev
+  ```
 
 ## Scripts
 
