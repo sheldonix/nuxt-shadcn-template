@@ -4,7 +4,12 @@
     <header class="border-b">
       <div class="container mx-auto max-w-6xl px-6 py-4">
         <div class="flex items-center justify-between">
-          <h1 class="text-2xl font-bold">Nuxt + shadcn-vue</h1>
+          <NuxtLink to="/" class="flex items-center gap-2">
+            <div class="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
+              <Zap class="w-6 h-6 text-primary-foreground" />
+            </div>
+            <h1 class="text-2xl font-bold">Nuxt + shadcn-vue</h1>
+          </NuxtLink>
           <div class="flex items-center gap-2">
             <ThemeToggle />
             <Button as-child variant="ghost" size="sm">
@@ -30,3 +35,7 @@
     </footer>
   </div>
 </template>
+
+<script setup lang="ts">
+import { Zap } from 'lucide-vue-next'
+</script>
