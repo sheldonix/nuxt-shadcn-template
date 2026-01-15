@@ -7,6 +7,9 @@
           <h1 class="text-2xl font-bold">Nuxt + shadcn-vue</h1>
           <div class="flex items-center gap-2">
             <ThemeToggle />
+            <Button as-child variant="ghost" size="sm">
+              <NuxtLink to="/about">About</NuxtLink>
+            </Button>
             <Button variant="outline" size="sm">Documentation</Button>
             <Button size="sm">Get Started</Button>
           </div>
